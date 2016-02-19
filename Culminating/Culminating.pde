@@ -122,7 +122,6 @@ void displayInput() {
  */
 void inputTyper() {
    if (keyCode == BACKSPACE) {
-      input = null;
       input = "";
    } else if (keyCode == ENTER) {
       println(input);
@@ -200,4 +199,3 @@ void objectMaker(ArrayList<String[]> c) {
       }
    }
 }
-
