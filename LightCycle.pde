@@ -29,7 +29,7 @@ class LightCycle {
     * @return The time of sunrise as a decimal
     */
    float getSunriseTime(String date) {
-      Date d = new Date();
+      Date d = new Date(); // life sucks
       float x = d.monthValue(date) + d.dayValue(date)/30;
       return 1.5*cos((TWO_PI/13)*(x))+6;
    }
