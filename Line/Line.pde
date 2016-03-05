@@ -7,6 +7,7 @@
  * @version 1.0
  * @since Jan 11 2015
  */
+ 
 class Line {
    PVector location;
    color c;
@@ -66,4 +67,3 @@ class Line {
       }
    }
 }
-
